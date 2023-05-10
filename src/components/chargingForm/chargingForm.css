@@ -1,0 +1,177 @@
+.charging_form {
+    background: #9FCF30;
+    margin-top: 71px;
+}
+
+.changForm_text {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.field_block .label_hidden {
+    display: none;
+}
+
+.field_block label {
+    position: relative;
+    display: inline-block;
+    height: 100%;
+}
+
+.field_block .phone_arm~input {
+    padding-left: 90px;
+    max-width: 163px;
+    text-align: unset;
+}
+
+.field_block .forward~input {
+    padding-left: 90px;
+    max-width: 163px;
+    text-align: unset;
+}
+
+.forward {
+    background: #F1F1F1;
+    border-radius: 0px 9px 9px 0px;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    color: #000000;
+    display: inline-block;
+    padding: 13px 16px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #77C044;
+    ;
+}
+
+.phone_arm {
+    background: #F1F1F1;
+    border-radius: 9px 0px 0px 9px;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    color: #000000;
+    display: inline-block;
+    padding: 14px 16px;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.changing_inps input {
+    max-width: 238px;
+    height: 47px;
+    border: 0.9px solid #CBCBCB;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.changing_inps input:focus-visible,
+.changing_inps input:focus {
+    border-color: #77C044 !important;
+    outline: none;
+}
+
+.changing_inps {
+    margin-left: 113px;
+}
+
+.changForm_text span {
+    font-size: 28px;
+    line-height: 35.95px;
+    font-family: "montserratArmSemibold";
+}
+
+.changging_img {
+    width: 304px;
+    height: 53px;
+}
+
+.chang_form {
+    width: 783px;
+    height: 300px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin: 81px 0;
+}
+
+
+.chang_option {
+    background: #F1F1F1;
+    width: 269px;
+    height: 47px;
+    border: 0.9px solid #F1F1F1;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.download_App {
+    width: 427px;
+    height: 300px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.download_appText {
+    padding: 53px 35px;
+    position: relative;
+}
+
+.download_appText span {
+    font-size: 28px;
+    line-height: 35.95px;
+    font-family: "montserratArmMedium";
+}
+
+.chang_form {
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    gap: 113px;
+}
+
+.changing_inps {
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+}
+
+.forms {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo_ucom {
+    width: 118.08000000000001px;
+    height: 65.89px;
+    top: 100.21px;
+    position: absolute;
+}
+
+.phone_text {
+    text-align: center;
+    margin: 71px 0;
+}
+
+.phone_title {
+    font-size: 36px;
+    line-height: 29.26px;
+
+}
+
+.phone_desc {
+    font-size: 24px;
+    line-height: 49.26px;
+}
+
+.error_message{
+    color: red;
+    font-family:"montserratSemiBold" ;
+}

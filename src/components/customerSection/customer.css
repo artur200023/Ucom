@@ -1,0 +1,259 @@
+.custForm_img {
+    position: relative;
+    margin-top: 78px;
+}
+
+.customer_section {
+    position: relative;
+}
+
+.custForm_img::before {
+    content: "";
+    background: linear-gradient(180deg, rgba(226, 229, 37, 0.6) 0%, rgba(159, 207, 48, 0.6) 100%);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.custForm_img::after {
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+.custForm_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.custForm_img img {
+    width: 100%;
+    position: relative;
+    object-fit: cover;
+    height: 567px;
+}
+
+.customer_text {
+    text-align: center;
+    font-family: "montserratArmMedium";
+    color: white;
+    z-index: 3;
+    position: absolute;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
+
+.top_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.title_section {
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: white;
+    max-width: 732px;
+    margin: 0 auto;
+}
+
+.customer_info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    margin-top: 60px;
+}
+
+.step_title {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 56px;
+    max-width: 307px;
+}
+
+.step_number {
+    text-align: center;
+    min-width: 80px;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #7EBC0A;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.step_block {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 15px;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.step_block::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    background: #8F8B8B;
+    border: 1px solid #8F8B8B;
+    left: 100%;
+    margin-left: -115px;
+    top: 25%;
+    margin-top: -10px;
+}
+
+.step_block:last-child:before {
+    content: none;
+}
+
+.customer_infoText {
+    font-family: 'montserratArmRegular';
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 38px;
+    text-align: center;
+}
+
+.customer_form {
+    width: 100%;
+    max-width: 816px;
+    /* height: 429px; */
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin: 0 auto;
+    /* border: 0.5px solid rgba(218, 218, 218, 0.5); */
+    box-shadow: -4px -5px 50px rgba(0, 0, 0, 0.15);
+    position: relative;
+    z-index: 3;
+    padding: 55px 0;
+    margin: -125px auto 0;
+}
+
+.form_title {
+    text-align: center;
+    font-size: 28px;
+    /* padding: 55px; */
+    line-height: 32px;
+    padding-bottom: 32px;
+    font-family: "montserratArmMedium";
+}
+
+.to_register label {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 55px;
+    line-height: 21.94px;
+    font-family: "montserratArmRegular";
+}
+
+.to_register input {
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #E6E8ED;
+    padding: 10px;
+}
+
+.match label {
+    display: flex;
+    align-items: center;
+    padding: 0 55px;
+    margin-top: 13px;
+}
+
+.match input {
+    background: #7EBC0A;
+}
+
+.match label span {
+    font-size: 18px;
+    list-style: 20px;
+    padding: 0 5px;
+    font-family: "montserratArmRegular";
+}
+
+.transition {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 55px;
+    width: 100%;
+    align-items: center;
+    margin-top: 73px;
+    margin-top: 115px;
+}
+
+
+.transition label {
+    padding: 0 55px;
+    display: flex;
+    align-items: center;
+}
+
+.trnasition_btn {
+    background: #7EBC0A;
+    color: white;
+    border: none;
+    min-height: 49px;
+    min-width: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 19.5px;
+}
+
+.start_transition {
+    flex: 1;
+}
+
+.start_transition span {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 5px;
+}
+
+.start_transition {
+    position: relative;
+    padding: 0 30px;
+}
+
+.start_transition::after {
+    content: "";
+    position: absolute;
+    margin-left: -178px;
+    top: -25px;
+    width: 703px;
+    background: #8F8B8B;
+    border: 1px solid #8F8B8B;
+}
+
+.customer_form .error_message{
+    padding: 0 55px ;
+}

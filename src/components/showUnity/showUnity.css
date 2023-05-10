@@ -1,0 +1,120 @@
+.slaid_block {
+    background: white;
+    margin: 0;
+    box-shadow: -5px -5px 20px rgba(0, 0, 0, 0.1), 5px 5px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    position: relative;
+    min-width: 380px;
+    margin-top: -10px;
+}
+
+.slaid_block ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.slaid_block li {
+    display: flex;
+    gap: 18px;
+}
+
+.slaid_block ul li {
+    font-size: 18px;
+    line-height: 24.01px;
+    padding: 15px 13px;
+}
+
+.inet {
+    padding-top: 46px;
+}
+
+.unity {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -12px;
+}
+
+.slider_section {
+    margin-top: 40px;
+    padding: 0 12px;
+    margin-bottom: 80px;
+}
+
+.unity_icons {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 700;
+    margin-left: 35px;
+}
+
+
+.unity_icon {
+    background: #77C044;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+}
+
+.unity_bon {
+    font-size: 25px;
+    color: #77C044;
+}
+
+.price_section {
+    border-radius: 10px 10px 0 0;
+    background: #77C044;
+    margin: 41px 0;
+    font-size: 28px;
+    line-height: 24px;
+    font-family: ' Montserrat arm';
+    color: white;
+    z-index: 1;
+    display: flex;
+    background: #77C044;
+    box-shadow: 0px 4px 80px rgba(0, 0, 0, 0.25);
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 300px
+}
+
+
+.btn_block {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0 49px;
+    background: #EBEAEA;
+    border-radius: 10px;
+}
+
+.btn_block li {
+    font-size: 22px !important;
+}
+
+.btn_block button {
+    color: white;
+    background: #7EBC0A;
+    border: none;
+    border-radius: 5px;
+    min-height: 49px;
+    min-width: 267.79px;
+    margin: 13px 0;
+    font-size: 18px;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+
+.info_icon {
+    background-color: #77C044;
+    color: white;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}

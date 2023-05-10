@@ -1,0 +1,49 @@
+.qr_info {
+    display: flex;
+}
+
+.about_footer {
+    margin-top: 60px;
+}
+
+.down_footer {
+    flex: 1;
+    padding: 0 15px;
+}
+
+.qr_img {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo_images {
+    display: flex;
+    gap: 5px;
+}
+
+.qr_block {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.qr_block a {
+    font-size: 12px;
+}
+
+/* .downFooter_section::before {
+    content: "";
+    position: absolute;
+    left: -50%;
+    right: 0;
+    bottom: 0;
+    background: rgba(128, 128, 128, 0.331);
+    height: 1px;
+    width: 10000vw
+} */
+
+.ucom_logo {
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 6px;
+}

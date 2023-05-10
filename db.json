@@ -1,0 +1,185 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "dots": [
+    {
+      "id": 1,
+      "title": "Տան համար",
+      "disc": "Համեմատությունն արված է"
+    },
+    {
+      "id": 2,
+      "title": "Սմարտֆոնների համար",
+      "disc": "Համեմատությունն արված է"
+    },
+    {
+      "id": 3,
+      "title": "Բոլորը մեկում",
+      "disc": "Համեմատությունն արված է"
+    },
+    {
+      "id": 4,
+      "title": "Ռոումինգ",
+      "disc": "Համեմատությունն արված է"
+    }
+  ],
+  "unityCards": [
+    {
+      "id": 1,
+      "unity": "UNITY 9000",
+      "inet": "15 ԳԲ Ինտերնետ",
+      "minute": "500 րոպե բոլոր ցանցեր",
+      "fixInet": "50 Մբ/վ ֆիքսվաշ ինտերնետ",
+      "channel": "200+ TV ալիք 4K 2TV box ",
+      "fixminute": "180+ Ֆիքսված րոպե",
+      "sim": "Unity Super 2 SIM քարտ",
+      "superCard": "Super Wi Fi սարք",
+      "cashAmount": "֏ 8000/ամսական"
+    },
+    {
+      "id": 2,
+      "unity": "UNITY 9000",
+      "inet": "15 ԳԲ Ինտերնետ",
+      "minute": "500 րոպե բոլոր ցանցեր",
+      "fixInet": "50 Մբ/վ ֆիքսվաշ ինտերնետ",
+      "channel": "200+ TV ալիք  ",
+      "fixminute": "180+ Ֆիքսված րոպե",
+      "sim": "Unity Super 2 SIM քարտ",
+      "superCard": "Super Wi Fi սարք",
+      "cashAmount": "֏ 8000/ամսական"
+    },
+    {
+      "id": 3,
+      "unity": "UNITY 9000",
+      "inet": "15 ԳԲ Ինտերնետ",
+      "minute": "500 րոպե բոլոր ցանցեր",
+      "fixInet": "50 Մբ/վ ֆիքսվաշ ինտերնետ",
+      "channel": "200+ TV ալիք  ",
+      "fixminute": "180+ Ֆիքսված րոպե",
+      "sim": "Unity Super 2 SIM քարտ",
+      "superCard": "Super Wi Fi սարք",
+      "cashAmount": "֏ 8000/ամսական"
+    },
+    {
+      "id": 4,
+      "unity": "UNITY 9000",
+      "inet": "15 ԳԲ Ինտերնետ",
+      "minute": "500 րոպե բոլոր ցանցեր",
+      "fixInet": "50 Մբ/վ ֆիքսվաշ ինտերնետ",
+      "channel": "200+ TV ալիք  ",
+      "fixminute": "180+ Ֆիքսված րոպե",
+      "sim": "Unity Super 2 SIM քարտ",
+      "superCard": "Super Wi Fi սարք",
+      "cashAmount": "֏ 8000/ամսական"
+    }
+  ],
+  "postPaidCard": [
+    {
+      "id": 1,
+      "postPaid": "Հետվճարային",
+      "price": "3500",
+      "minute": "1000 րոպե բոլոր ցանցեր",
+      "inet": "10 ԳԲ Իներնետ",
+      "unlimited": "Անսահմանափակ",
+      "cashAmount": "֏ 3000 /ամսական"
+    },
+    {
+      "id": 2,
+      "postPaid": "Հետվճարային",
+      "price": "5500",
+      "minute": "3000 րոպե բոլոր ցանցեր",
+      "cashAmount": "֏ 5500 /ամսական"
+    },
+    {
+      "id": 3,
+      "postPaid": "Հետվճարային",
+      "price": "5500",
+      "minute": "6000 րոպե բոլոր ցանցեր",
+      "cashAmount": "֏ 8500 /ամսական"
+    },
+    {
+      "id": 4,
+      "postPaid": "Հետվճարային",
+      "price": "5500",
+      "minute": "6000 րոպե բոլոր ցանցեր",
+      "cashAmount": "֏ 8500 /ամսական"
+    }
+  ],
+  "offerInfo": [
+    {
+      "id": 1,
+      "news": "Նորույթ",
+      "infoProduct": "Xiaomi Redmi Note 11 64ԳԲ",
+      "product": "Redmi Note 11 64ԳԲ",
+      "discountAbout": "Խնայեք մինչև 100.000 դրամ",
+      "price": "900.000 դրամից",
+      "image": "/resources/images/applePhone.png"
+    },
+    {
+      "id": 2,
+      "infoProduct": "Xiaomi Redmi Note 11 64ԳԲ",
+      "discountAbout": "Խնայեք մինչև 100.000 դրամ",
+      "price": "900.000 դրամից",
+      "image": "/resources/images/Samsung-Galaxy-Book.png"
+    },
+    {
+      "id": 3,
+      "infoProduct": "Xiaomi Redmi Note 11 64ԳԲ",
+      "priceProduct": "900.000 դրամից",
+      "image": "/resources/images/thumbna.png"
+    },
+    {
+      "id": 4,
+      "news": "Նորույթ",
+      "infoProduct": "Xiaomi Redmi Note 11 64ԳԲ",
+      "product": "Redmi Note 11 64ԳԲ",
+      "discountAbout": "Խնայեք մինչև 100.000 դրամ",
+      "price": "900.000 դրամից",
+      "image": "/resources/images/case.png"
+    },
+    {
+      "id": 5,
+      "image": "/resources/images/watch.png"
+    },
+    {
+      "id": 6,
+      "infoProduct": "Xiaomi Redmi Note 11 64ԳԲ",
+      "priceProduct": "900.000 դրամից",
+      "image": "/resources/images/case2.png"
+    }
+  ],
+  "aboutNews": [
+    {
+      "id": 1,
+      "text": "Փոփոխություններ <<ընդհանուր դրույթներ և պայմաններ>>-ում",
+      "date": " Մարտ 15․2022"
+    },
+    {
+      "id": 2,
+      "image": "/resources/images/img1.png",
+      "cardNews": "Փոփոխություններ <<ընդհանուր դրույթներ և պայմաններ>>-ում",
+      "newsDate":" Մարտ 15․2022"
+    },
+    {
+      "id": 3,
+      "image": "/resources/images/img2.png",
+      "cardNews": "Փոփոխություններ <<ընդհանուր դրույթներ և պայմաններ>>-ում",
+      "newsDate":" Մարտ 15․2022"
+    }
+  ]
+}

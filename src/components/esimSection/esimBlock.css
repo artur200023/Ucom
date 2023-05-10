@@ -1,0 +1,72 @@
+.esim_section {
+    margin-top: 169px;
+    position: relative;
+
+}
+
+.about_esim {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_esim::before {
+    content: "";
+    position: absolute;
+    box-shadow: -4px -5px 50px rgba(0, 0, 0, 0.15);
+    background: #F8F8F8;
+    height: 470px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.esim_text {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+
+.esim_img {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.esim_img img {
+    display: block;
+    max-width: 400px;
+    width: auto;
+    object-fit: cover;
+}
+
+.esim_title {
+    font-size: 40px;
+    line-height: 48.76px;
+    font-family: "montserratArmSemibold";
+}
+
+.esim_desc {
+    font-size: 18px;
+    line-height: 38.14px;
+    font-family: "montserratArmRegular";
+    margin-bottom: 16px;
+}
+
+.about_blocks {
+    display: flex;
+    align-items: center;
+
+}
+
+.about_text {
+    max-width: 576px;
+    margin: 0 auto;
+}

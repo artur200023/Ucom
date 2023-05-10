@@ -1,0 +1,52 @@
+.store_btn {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background: white;
+    border: 1px solid #77C044;
+    color: #77C044;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-size: 14px;
+    line-height: 17.07px;
+    font-family: "montserratArmRegular";
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.store_btn:hover {
+    background: #77C044;
+    color: white;
+}
+
+.news_block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.about_newsTitle {
+    font-size: 36px;
+    line-height: 43.88px;
+    font-family: "montserratArmMedium";
+}
+
+.news_block button {
+    background: #7EBC0A;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    font-size: 14px;
+    line-height: 17.07px;
+    font-family: "montserratArmMedium";
+    cursor: pointer;
+}
+
+.blog_section {
+    display: flex;
+    justify-content: space-between;
+    margin: 35px -20px;
+}

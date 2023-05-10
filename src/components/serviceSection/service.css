@@ -1,0 +1,55 @@
+.service_section {
+    background: #EBEAEA;
+    margin-top: 67px;
+    padding: 146px 0;
+}
+
+.service_text {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+
+.service_title {
+    font-size: 36px;
+    font-family: "montserratArmMedium";
+    line-height: 53.06px;
+}
+
+.service_desc {
+    font-size: 18px;
+    font-family: "montserratArmRegular";
+    line-height: 34.54px;
+}
+
+.service_text button {
+    background: #7EBC0A;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    width: 100%;
+    max-width: 357px;
+    height: 47px;
+    margin-top: 32px;
+    font-size: 16px;
+    line-height: 19.5px;
+    cursor: pointer;
+}
+
+.about_service {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 -15px;
+}
+
+.video {
+    width: 600px;
+    height: 351px;
+    background: #626161;
+    border-radius: 20px;
+}
+
+.section_video {
+    padding: 0 15px;
+}

@@ -1,0 +1,35 @@
+
+
+.blog_section {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    width: 100%;
+    gap: 15px;
+}
+
+.blog_section li {
+    font-size: 18px;
+    line-height: 21.94px;
+    font-family: "montserratArmMedium";
+    flex: 1;
+}
+
+
+.blog_section li:first-child {
+    background: #F1F1F1;
+    border-radius: 20px;
+    border: none;
+    padding: 80px 24px;
+    font-size: 18px;
+    line-height: 21.94px;
+    font-family: "montserratArmMedium";
+}
+
+
+
+
+
+.blog_section li div {
+    padding: 10px 0;
+}
